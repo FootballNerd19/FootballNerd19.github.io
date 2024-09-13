@@ -115,21 +115,17 @@ body > footer {
     display: flex;
     list-style: none;
     justify-content: space-around;
+    margin-left: 12px;
+    align-items: center;
+    color: white
 }
 
-#footer-ul{
-    margin-left: 12px;
-}
 
 #footer-ul > div > li > a{
     text-decoration: none;
     color: white;
-    padding : 12px;
-    margin-left: 8px;
-    border: 1px solid white;
+    padding : 0px;
+    margin-left: 0px;
+    
+    align-items: center;
 }
-colour: white;  
-  text-decoration: none;
-  padding: 12px;
-  border: 1px solid white;
-  border-radius: 7.5%;
