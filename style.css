@@ -5,18 +5,24 @@ body {
 }
   
 p{
-    font-size: 1em;
+    font-size: 1.em;
     
 }
 
-
+#aside{
+    background-color: green;
+    margin:0px;
+}
 
 #logo {
     margin: 0px;
     padding: 8px;
     font-family: "Fredoka One", sans-serif;
+    height: 8vh;
+    text-align: center;
     box-shadow: 10px 10px 15px 5px black;
-    width: 16%;
+    width: 35%;
+    border-radius: 4%;
     text-shadow: 
     1px 1px 0px black,  /*Bottom-right shadow*/
     -1px 1px 0px black,  /*Bottom-left shadow*/
@@ -29,10 +35,10 @@ ul{
 }
 
 body > header {
-    background-color: orange;
+    background-color: green;
     color: rgb(88, 88, 99);
     display: flex; 
-    height: 12vh;
+    height: 18vh;
     align-items: center;
     justify-content: space-around;
     }
@@ -57,11 +63,6 @@ body > header > nav > ul {
   border: 1px solid white;
   border-radius: 7.5%;
 }
-
-#club-list {
-
-}
-
 
 body > main article {
     width: 70%;
@@ -105,16 +106,15 @@ text-align: center;
 }
 
 body > footer {
-    background-color: orange;
+    background-color: green;
 }
 
-img {
- border-radius: 50%;
-}
+
 
 #footer-ul{
     display: flex;
     list-style: none;
+    justify-content: space-around;
 }
 
 #footer-ul{
@@ -124,5 +124,12 @@ img {
 #footer-ul > div > li > a{
     text-decoration: none;
     color: white;
+    padding : 12px;
     margin-left: 8px;
+    border: 1px solid white;
 }
+colour: white;  
+  text-decoration: none;
+  padding: 12px;
+  border: 1px solid white;
+  border-radius: 7.5%;
