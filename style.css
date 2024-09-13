@@ -73,16 +73,16 @@ body > main article {
     justify-content: space-around;
 }
 
-.arsenal{
+.transfers{
     display: flex;
 }
-.arsnal-ins{
+.ins{
     height: auto;
     width:auto;
 
 }
 
-.arsenal-outs {
+.outs {
    height:auto;
    width:auto;
    
